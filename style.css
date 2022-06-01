@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+
+    background-color: dimgray;
+    color: rgb(5, 198, 5);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#container {
+
+    /*width:70%;*/
+    width: 1100px;
+    margin: 0px auto;
+    border: 1px solid red;
+}
+
+.article {
+
+    color: rgb(162, 121, 201);
+}
+
+header {
+    background: purple;
+    text-align: center;
+    border-bottom: 3px dashed black;
+    text-align: center;
+    line-height: 100px;
+    border-bottom: 3px dashed;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav {
+    background-color: rgb(60, 14, 68);
+    height: 50px;
+    border-bottom: 1px solid black;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    margin: 10px;
+    line-height: 30px;
+
+
+
+}
+
+.clearfix {
+    clear: both;
+}
+
+
+
+#content {
+
+    float: left;
+    width: calc(80% - 80px);
+    background: rgb(83, 15, 120);
+    min-height: 500px;
+    padding: 40px;
+
+}
+
+.article{
+
+    color: rgb(11, 176, 27);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+
+}
+
+aside {
+    float: left;
+    width: calc(20% - 20px);
+    background: greenyellow;
+    min-height: 500px;
+    padding: 10px;
+
+
+}
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    
+
+}
+
+.masinfo{
+    
+    text-align: center;
+    
+}
