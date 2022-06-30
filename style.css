@@ -5,10 +5,13 @@
 
 body {
 
-    background-color: dimgray;
-    color: rgb(5, 198, 5);
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    color: rgb(224, 26, 26);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
+}
+.logo{
+    font-family: 'Indie Flower', cursive;
 }
 
 #container {
@@ -20,12 +23,17 @@ body {
 }
 
 .article {
-
+    
     color: rgb(162, 121, 201);
 }
 
+img{
+    height: auto;
+    width: 720px;
+}
+
 header {
-    background: purple;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     text-align: center;
     border-bottom: 3px dashed black;
     text-align: center;
@@ -35,7 +43,7 @@ header {
 }
 
 nav {
-    background-color: rgb(60, 14, 68);
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     height: 50px;
     border-bottom: 1px solid black;
 }
@@ -60,7 +68,7 @@ nav ul li {
 
     float: left;
     width: calc(80% - 80px);
-    background: rgb(83, 15, 120);
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     min-height: 500px;
     padding: 40px;
 
@@ -68,7 +76,7 @@ nav ul li {
 
 .article{
 
-    color: rgb(11, 176, 27);
+    color: rgb(14, 0, 216);
     margin-top: 15px;
     margin-bottom: 15px;
     padding-bottom: 10px;
