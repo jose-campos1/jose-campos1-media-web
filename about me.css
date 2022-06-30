@@ -4,8 +4,9 @@
 }
 body{
 
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: 'Indie Flower', cursive;
     background-color: rgb(78, 13, 138);
+    font-weight: bold;
     
 }
 
@@ -15,17 +16,19 @@ body{
     margin: 0px auto;
    
 }
+.about{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Indie Flower', cursive;
+}
 
 nav{
-    
-    background-color: rgb(128, 197, 25);
+    font-family: 'Indie Flower', cursive;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     height: 50px;
     border-bottom: 1px solid rgb(128, 197, 25);
 
 
-}
-.clearfix{
-    clear: both;
 }
 
 nav ul li {
@@ -41,8 +44,15 @@ nav ul li {
     clear: both;
 }
 
-#content{
-    float: left;
+.content{
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+
+.items{
+    padding-left: 450px;
+    text-align: center;
+    justify-content: center;
 }
 
 footer{
@@ -62,20 +72,21 @@ h1{
     text-align: center;
 }
 
-video{
+.video{
     width: 640px;
     height: 640px;
-    position: relative;
-    padding-left: 50px;
-    border: 1px solid red;
-    
-    
+    padding: 10px 10px 10px 200px;
+    }
+
+.agony{
+    padding: 10px 10px 10px 200px;
+}
+.youtube{
+    padding: 10px 10px 10px 200px;
 }
 
 iframe{
 
-   
-    border: 1px solid red;
     width: 100%;
     height: 100%;
     position: calc(56.25%);
@@ -86,19 +97,12 @@ iframe{
    
 }
 
-.clearfix{
-    
-    clear:both;
-}
 
 .goback{
     text-align: center;
     background-color: rgb(128, 197, 25);
-    width: 154.4%;
-    height: 50px;
+    width: auto;
+    height: auto;
     
 }
 
-.clearfix{
-    clear: both;
-}
