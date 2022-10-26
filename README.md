@@ -1,5 +1,5 @@
 # main-page.github.io
-Ayudame a mejorar mi pagina web!
+Ayudame a mejorar mi pagina web! ✅
 
 Pagina principal de productos..
 
@@ -10,4 +10,5 @@ para videos y demas...
 *Crear base de datos*
 
 
-![SoExcited~GIF](https://user-images.githubusercontent.com/106594685/198011179-58ed3f62-9955-4aae-beaa-0c1809a62c09.gif)
+![CallOfDutyModernWarfareGIF](https://user-images.githubusercontent.com/106594685/198017972-79f854ed-ef03-4a76-910e-593fccac72fa.gif)
+
