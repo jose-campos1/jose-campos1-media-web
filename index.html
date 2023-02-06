@@ -68,16 +68,29 @@
   <aside>
 
     <h2>Conectate</h2>
-    <form>
 
-      <input type="text">
+      <br>
 
-      <input type="submit" value="Buscar" />
-
+      <form
+      action="https://formspree.io/f/xdoveoav"
+      method="POST"
+    >
+      <label>
+        Your email:
+        <input type="email" name="email">
+      </label>
+      <label>
+        Your message:
+        <textarea name="message"></textarea>
+      </label>
+      <!-- your other form fields go here -->
+      <button type="submit">Send</button>
+    </form>
     </form>
 
+    <br> 
 
-    <p>Esto es solo por diversion no es para un CV, pero aca hare una base de datos para registros :) </p>
+    <p>Espacio para contacto</p>
 
 
   </aside>
@@ -97,5 +110,15 @@
 
 
 </body>
+<script>
+  const $form = document.querySelector('#form')
+
+  $form.addEventListener('submit', handlesubmit)
+
+  function handlesubmit(event){
+    event.preventDefault()
+    const form = new FormData(this)
+  }
+</script>
 
 </html>
