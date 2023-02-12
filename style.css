@@ -9,7 +9,7 @@ body {
     /*color: rgb(224, 26, 26);*/
     font-family: 'Indie Flower', cursive;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
-    text-shadow: 1px 1px #ff0000;
+    text-shadow:  #181717;
     font-weight: bold;
 }
 .logo{
@@ -104,6 +104,7 @@ aside {
     background: rgb(131,58,180);
     background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
     min-height: 850px;
+    min-width: 220px;
 
 
 
