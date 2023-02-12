@@ -1,8 +1,7 @@
 header{
-
     text-align: center;
-    border-bottom: 3px dashed white;
     line-height: 100px;
+
 }
 
 #article{
@@ -26,7 +25,9 @@ body{
     background: rgb(2,0,36);
     background: linear-gradient(62deg, rgba(2,0,36,1) 0%, rgba(121,9,9,1) 78%, rgba(0,212,255,1) 100%);
     font-family: 'Indie Flower', cursive;
-    color: beige;
+    color: #cc0000;
+    text-shadow: 1px 1px #ff0000;
+
 
 }
 
@@ -50,9 +51,9 @@ nav ul li {
 }
 
 nav{
-    background-color: rgb(43, 255, 0);
-    height: 50px;
-    border-bottom: 1px solid red;
+    background: rgb(0,212,255);
+    background: linear-gradient(62deg, rgba(0,212,255,1) 32%, rgba(2,0,36,1) 48%, rgba(121,9,19,1) 73%);    height: 50px;
+    
 }
 
 footer{
